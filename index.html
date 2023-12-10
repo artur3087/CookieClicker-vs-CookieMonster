@@ -3,17 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOCAL STORAGE THING</title>
-    <script src="./app.js" defer></script>
-
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Cookie Clicker vs Cookie Monster</title>
+    
 </head>
-<body>
-    <h1>Local Storage</h1>
-    <p>My favourite colour is:</p>
-    <form>
-      <input type="text" name="colour" />
-      <button type="submit">Save</button>
-    </form>
+<body> 
+        <header>
+            <h2>Cookie Monster invades Your bakery for cookies!</h2>
+            <h1>Quickly make more cookies!</h1> 
+        </header>   
+        <main id = "content">  
+        <section class = "feature monster">
+            <br></br>
+            <div class="klasa">
+            <h3>Number of cookies You have:</h3>
+            <h4>0</h4>
+                <p id="p2">Money in £ You made:</p>
+                <p id="Money">Your bakery stoped making money!</p>
+             </div>   
+   
+   <!-- Below I write code for all of the buttons I want to use-->
+        <div class = "klasa2">
+            <h2>GRANDMA and friendly LOCAL STORE:</h2>
+            <button id="Plus1Cookie">Cookies from Grandma (cost FREE)</button> 
+            <button id="Plus2Cookie">Buy 4 cookies (10£ cost)</button>
+            <button id="Plus3Cookie">Buy 20 cookies (20£ cost)</button>
+            <button id="Boost">Gordon Ramsey's Rage!!! (250 cost)</button>
+            <button id="Restart">Start Again!</button>
+            <p> You earn money ONLY from cookies made by your bakery. When your cookies goes below zero, you stop making money!</p>
+            <a> Be careful ! Cookie Monster eat more cookies each time!</a>
+        </div>
+        </section>
+        </main>
 
+        <!-- Below I code sounds sources -->
+        <audio src = "./cookies-101soundboards.mp3" id="HappyMonster"></audio>
+
+   
 </body>
+
+<footer> Copyright: Artur Ciecierski</footer>
 </html>
